@@ -1,0 +1,77 @@
+/* 004489 -- blue
+off white -- E1E1D6
+grayish -- D3D9DF
+brown 565656
+lighter brown  989898
+red E15119
+*/
+
+
+html {
+	background: url("https://res.cloudinary.com/tech-stories/image/upload/c_scale,h_340/v1503364606/Screen_Shot_2017-08-21_at_8.49.22_PM_e6vica.png") 
+	no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+body{
+	color: #565656;
+}
+header {
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+}
+
+.words {
+	margin: 30px;
+	display: flex;
+	
+}
+.icon, .temp-button{
+	height: 100px;
+	width: 100px;
+	border: 6px solid darkgray;
+}
+
+.container {
+
+		display: flex;
+		flex-direction:  row;
+		flex-wrap:  wrap;
+		justify-content: space-around;
+		align-items:     ;
+		align-self:     ;
+		align-content; 		; 	
+}
+.description {
+	display:flex;
+	justify-content: center;
+}
+.temp{
+	height: 75%;
+	width: 100%;
+}
+.changeT  {
+		height: 25%;
+		width: 100%;
+		display: flex;
+	}
+
+footer {
+	display:flex;
+	align-content: center;
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	margin-bottom: 0;
+	bottom: 0;
+	font-color: #E1E1D6;
+	background-color: ;
+	
+}
