@@ -1,7 +1,7 @@
 
-var endpoint = "https://fcc-weather-api.glitch.me/api/current?";
-var param = "lon=:" + long + "&lat=:" + lat;
-var lat, long;
+//var endpoint = "https://fcc-weather-api.glitch.me/api/current?";
+//var param = "lon=:" + long + "&lat=:" + lat;
+//var lat, long;
 //use geolocation in html5 to get lat and long for ajax call parameters
 $(document).ready(function() {
   if (navigator.geolocation) {
@@ -18,9 +18,9 @@ $(document).ready(function() {
     
   //make the call
   function getWeather(lat,lon) { 
-    //var endpoint = "https://fcc-weather-api.glitch.me/api/current?";
-    //var param = lat + "&" + long;
-    //var api = endpoint + param;
+    var endpoint = "https://fcc-weather-api.glitch.me/api/current?";
+    var param = lat + "&" + long;
+    var api = endpoint + param;
     $.ajax({
       	url: api,
         success: function (result) {
